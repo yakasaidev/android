@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Gezawa Guide",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Overview",
+        "provider": "webview",
+        "arguments": [
+          "file:///android_asset/overview.html"
+        ]
+      },
+      {
+        "title": "History",
+        "provider": "webview",
+        "arguments": [
+          "file:///android_asset/history.html"
+        ]
+      },
+      {
+        "title": "Landmarks",
+        "provider": "webview",
+        "arguments": [
+          "file:///android_asset/landmarks.html"
+        ]
+      }
+    ]
+  }
+]
